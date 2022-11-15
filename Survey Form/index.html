@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+      
+    <h1 id="title">Azam Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to help us improve the platform</em><p>
+      <div class="container">
+        <form id="survey-form">
+          <label id="name-label">
+            <p>Name</p>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </label>
+          <label id="email-label">
+            <p>Email</p>
+            <input type="email" id="email" placeholder="Enter your Email" required>
+          </label>
+          <label id="number-label">
+            <p>Age (optional)</p>
+            <input type="number" id="number" min="13" max="120" placeholder="Age">
+          </label>
+          <label>
+            <p>Language</p>
+          <select id="dropdown">
+            <option>
+              select language
+            </option>
+            <option id="language">
+              English
+            </option>
+            <option id="language">
+            Hindi
+            </option>
+          </select>
+        </label>
+        <label for="status">
+          <p>Status:</p>
+          <input type="radio" name ="status" value="status"> active
+          <input type="radio" name="status" value="status"> deactive
+        </label>
+        <label for="skills">
+          <p>What skills you have?</p>
+          <input type="checkbox" value="skills"> Java
+          <input type="checkbox" value="skills"> Python
+          <input type="checkbox" value="skills"> JavaScript
+          <input type="checkbox" value="skills"> C++
+        </label>
+        <label for="workex">
+          <p>Tell Us About your work experience.</p>
+          <textarea id="workex" name="workex" row="5" col="50"></textarea>
+        </label>
+        <div class="button">
+        <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
