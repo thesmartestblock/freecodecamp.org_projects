@@ -1,0 +1,35 @@
+body{
+    color:#7feaff;        background-color:#3a6a85;
+    align-items:center;
+    justify-items:center;
+  }
+  
+  h1,
+  p,
+  h2{
+    text-align:center;
+  }
+  
+  .img-div{
+    text-align:center;
+    margin:0 5%;
+    padding:2%;background-color:#3a6a71;
+  }
+  
+  .img-div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height:auto;
+  }
+  
+  .tribute-info{
+    margin:auto;
+    max-width:300px;
+    width:30%;
+  }
+  
+  .apan{
+    text-align:right;
+  }
